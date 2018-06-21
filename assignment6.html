@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>calculate</title>
+</head>
+<body>
+    <button onclick="myclick()">click me to display the square of the x variable</button>
+   <div id="result">
+    </div>
+<script>
+     var x=10;
+    function myclick(){
+        var y=x*x;
+   document.getElementById("result").innerHTML+="the square of " + x + " is " + y +"<br/>" ;
+        console.log(y)
+    }
+</script>
+</body>
+</html>
